@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="stalker"
+version="1.0.0"
+displayName="The Stalker"
+description='''
+Una entidad de terror que te acecha. Se mueve cuando no la miras, se congela cuando la miras,
+y desaparece si la miras demasiado... hasta que vuelve.
+'''
+
+[[dependencies.stalker]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.stalker]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.stalker]]
+modId="geckolib"
+mandatory=true
+versionRange="[4.4,)"
+ordering="AFTER"
+side="BOTH"
